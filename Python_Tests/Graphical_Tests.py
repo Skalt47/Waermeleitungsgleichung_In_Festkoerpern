@@ -11,7 +11,7 @@ X, Y, Z = np.meshgrid(x, y, z)
 # Darstellung als Punktwolke
 fig = plt.figure(figsize=(8, 6))
 ax = fig.add_subplot(111, projection='3d')
-ax.scatter(X, Y, Z, color='red', s=4)  # s=2: Punktgröße
+ax.scatter(X, Y, Z, color='red', s=7)  # s=2: Punktgröße
 
 ax.set_xlabel('X')
 ax.set_ylabel('Y')
